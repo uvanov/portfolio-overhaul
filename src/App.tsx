@@ -1,10 +1,22 @@
 import React from 'react';
+// @ts-ignore
+import { FullPage, Slide } from 'react-full-page';
 
 const App = () => {
     return (
-        <div>
+        <FullPage duration={500}>
+            <Slide>
 
-        </div>
+            </Slide>
+
+            <Slide>
+
+            </Slide>
+
+            <Slide>
+
+            </Slide>
+        </FullPage>
     );
 };
 
