@@ -4,4 +4,6 @@ I decided to rework my own **[web-site](https://uvanov.com)**.
 
 
 ### Used technologies
-// Here will be technologies images :D
+![React](./readme/react.png)
+![TypeScript](./readme/typescript.png)
+![Styled Components](./readme/styled.png)
