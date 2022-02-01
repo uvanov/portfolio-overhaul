@@ -5,6 +5,11 @@ body, ul, p, h1 {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     font-family: Inter, Roboto, sans-serif;
+    background: #0A192F;
 }
