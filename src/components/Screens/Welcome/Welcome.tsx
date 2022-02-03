@@ -1,18 +1,27 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Container = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`
-
+import Container from "../../Layout/Container/Container";
+import Header from "../../Layout/Header/Header";
 
 const Welcome = () => {
     return (
         <Container>
-            Some text
+            <Header
+                button={{innerText: 'Резюме', url: '/'}}
+                links={
+                    [
+                        {
+                            innerText: 'Обо мне',
+                            blockToScroll: '.some-block'
+                        },
+                        {
+                            innerText: 'Работы',
+                            blockToScroll: '.some-block-2'
+                        }
+                    ]
+                }
+            />
         </Container>
+
     );
 };
 
