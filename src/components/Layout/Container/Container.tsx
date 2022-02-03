@@ -4,6 +4,14 @@ import styled from 'styled-components';
 const ContainerStyle = styled.div`
     padding: 0 95px;
     box-sizing: border-box;
+    
+    @media screen and (max-width: 450px){
+       padding: 0 50px;
+    }
+    
+    @media screen and (max-width: 370px){
+       padding: 0 30px;
+    }
 `
 
 type Props = {
